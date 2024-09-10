@@ -11,9 +11,5 @@ public class Desafio1 {
             soma += k;
         }
         System.out.println(soma); // RESULTADO 91
-
     }
-
-
-
 }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Desafio2 {
     public static void main(String[] args) {
 
-          for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 10; i++) {
             System.out.printf("%d ", fib(i));
         }
         System.out.println();
@@ -24,7 +24,7 @@ public class Desafio2 {
         scanner.close();
     }
 
-        public static int fib(int n) {
+    public static int fib(int n) {
         if (n == 1)
             return 0;
 
